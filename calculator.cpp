@@ -13,3 +13,10 @@ int multipication(int num1, int num2){
 double division(int num1, int num2){
     return(double(num1)/num2);
 }
+int factorialcalculation(int num){
+    if(num==1 || num==0){
+        return 1;
+    }else{
+        return (num*factorialcalculation(num-1));
+    }
+}
