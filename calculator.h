@@ -8,3 +8,4 @@ int factorialcalculation(int);
 int greatestcommondivisor(int,int);
 int leastcommonmultiple(int,int);
 int randomnumber(int,int);
+double mathematical_expression();
