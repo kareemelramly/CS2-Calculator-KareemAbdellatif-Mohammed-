@@ -20,3 +20,13 @@ int factorialcalculation(int num){
         return (num*factorialcalculation(num-1));
     }
 }
+int greatestcommondivisor(int num1, int num2){
+    if(num2==0){
+        return num1;
+    }else{
+        return(greatestcommondivisor(num2,num1%num2));
+    }
+}
+int leastcommonmultiple(int num1,int num2){
+    return(num1*num2/(greatestcommondivisor(num1,num2)));
+}
