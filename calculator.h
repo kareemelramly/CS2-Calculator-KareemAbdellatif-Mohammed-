@@ -7,3 +7,4 @@ double division(int,int);
 int factorialcalculation(int);
 int greatestcommondivisor(int,int);
 int leastcommonmultiple(int,int);
+int randomnumber(int,int);
